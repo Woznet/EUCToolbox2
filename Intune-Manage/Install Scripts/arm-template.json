@@ -155,35 +155,35 @@
     },
     "_artifactsLocation": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/andrew-s-taylor/EUCToolbox/main/Manage-Intune/Runbook%20Script/intune-backup-restore-withgui.ps1",
+      "defaultValue": "https://raw.githubusercontent.com/woznet/EUCToolbox2/main/Manage-Intune/Runbook%20Script/intune-backup-restore-withgui.ps1",
       "metadata": {
         "description": "URI to artifacts location"
       }
     },
     "_artifactsLocation1": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/andrew-s-taylor/EUCToolbox/main/Manage-Intune/Runbook%20Script/monitor-drift.ps1",
+      "defaultValue": "https://raw.githubusercontent.com/woznet/EUCToolbox2/main/Manage-Intune/Runbook%20Script/monitor-drift.ps1",
       "metadata": {
         "description": "URI to artifacts location"
       }
     },
     "_artifactsLocation2": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/andrew-s-taylor/EUCToolbox/main/Manage-Intune/Runbook%20Script/Daily-Checks-Runbook.ps1",
+      "defaultValue": "https://raw.githubusercontent.com/woznet/EUCToolbox2/main/Manage-Intune/Runbook%20Script/Daily-Checks-Runbook.ps1",
       "metadata": {
         "description": "URI to artifacts location"
       }
     },
     "_artifactsLocation3": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/andrew-s-taylor/EUCToolbox/main/Manage-Intune/Runbook%20Script/Intune-Security-Report.ps1",
+      "defaultValue": "https://raw.githubusercontent.com/woznet/EUCToolbox2/main/Manage-Intune/Runbook%20Script/Intune-Security-Report.ps1",
       "metadata": {
         "description": "URI to artifacts location"
       }
     },
     "_artifactsLocation4": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/andrew-s-taylor/EUCToolbox/main/Manage-Intune/Runbook%20Script/app-deploy-runbook.ps1",
+      "defaultValue": "https://raw.githubusercontent.com/woznet/EUCToolbox2/main/Manage-Intune/Runbook%20Script/app-deploy-runbook.ps1",
       "metadata": {
         "description": "URI to artifacts location"
       }
@@ -289,7 +289,7 @@
       "metadata": {
         "description": "URL of the public git repository"
       },
-      "defaultValue": "https://github.com/andrew-s-taylor/EUCToolbox"
+      "defaultValue": "https://github.com/woznet/EUCToolbox2"
     },
     "workflows_crontest_name": {
       "defaultValue": "BackupCron",
@@ -691,7 +691,7 @@
         "[resourceId('Microsoft.Web/sites', parameters('appName'))]"
       ],
       "properties": {
-                "packageUri": "https://github.com/andrew-s-taylor/EUCToolbox/raw/main/Manage-Intune/Webpage%20Content.zip",
+                "packageUri": "https://github.com/woznet/EUCToolbox2/raw/main/Manage-Intune/Webpage%20Content.zip",
         "type": "zip"
       }
     },

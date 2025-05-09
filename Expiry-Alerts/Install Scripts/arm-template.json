@@ -42,7 +42,7 @@
         },
         "_artifactsLocation": {
             "type": "string",
-            "defaultValue": "https://raw.githubusercontent.com/andrew-s-taylor/EUCToolbox/main/Expiry-Alerts/Runbook%20Script/intune-app-alerter.ps1",
+            "defaultValue": "https://raw.githubusercontent.com/woznet/EUCToolbox2/main/Expiry-Alerts/Runbook%20Script/intune-app-alerter.ps1",
             "metadata": {
                 "description": "URI to artifacts location"
             }
@@ -92,7 +92,7 @@
             "metadata": {
                 "description": "URL of the public git repository"
             },
-            "defaultValue": "https://github.com/andrew-s-taylor/EUCToolbox"
+            "defaultValue": "https://github.com/woznet/EUCToolbox2"
         }
     },
     "variables": {
@@ -257,7 +257,7 @@
                 "[resourceId('Microsoft.Web/sites', parameters('appName'))]"
             ],
             "properties": {
-                "packageUri": "https://github.com/andrew-s-taylor/EUCToolbox/raw/main/Expirt-Alerts/Webpage%20Content.zip",
+                "packageUri": "https://github.com/woznet/EUCToolbox2/raw/main/Expirt-Alerts/Webpage%20Content.zip",
                 "type": "zip"
             }
         },

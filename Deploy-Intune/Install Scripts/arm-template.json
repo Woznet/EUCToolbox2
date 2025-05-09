@@ -42,7 +42,7 @@
         },
         "_artifactsLocation": {
             "type": "string",
-            "defaultValue": "https://raw.githubusercontent.com/andrew-s-taylor/EUCToolbox/main/Deploy-Intune/Runbook%20Script/Deploy-Intune-Script.ps1",
+            "defaultValue": "https://raw.githubusercontent.com/woznet/EUCToolbox2/main/Deploy-Intune/Runbook%20Script/Deploy-Intune-Script.ps1",
             "metadata": {
                 "description": "URI to artifacts location"
             }
@@ -80,7 +80,7 @@
             "metadata": {
                 "description": "URL of the public git repository"
             },
-            "defaultValue": "https://github.com/andrew-s-taylor/EUCToolbox"
+            "defaultValue": "https://github.com/woznet/EUCToolbox2"
         }
     },
     "variables": {
@@ -220,7 +220,7 @@
                 "[resourceId('Microsoft.Web/sites', parameters('appName'))]"
             ],
             "properties": {
-                "packageUri": "https://github.com/andrew-s-taylor/EUCToolbox/raw/main/Deploy-Intune/Webpage%20Content.zip",
+                "packageUri": "https://github.com/woznet/EUCToolbox2/raw/main/Deploy-Intune/Webpage%20Content.zip",
                 "type": "zip"
             }
         },
